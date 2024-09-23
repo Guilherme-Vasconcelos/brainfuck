@@ -12,6 +12,11 @@ python = "^3.12"
 [tool.poetry.scripts]
 brainfuck = "brainfuck.__main__:main"
 
+[tool.ruff.lint]
+unfixable = [
+    "F401",
+]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

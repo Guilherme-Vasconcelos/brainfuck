@@ -11,3 +11,7 @@ __pycache__/
 
 # Tools caches
 .ruff_cache/
+
+# Compiled files
+hello_world.c
+hello_world
