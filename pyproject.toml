@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "brainfuck"
+version = "0.1.0"
+description = "A brainfuck compiler"
+authors = ["Guilherme Vasconcelos"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+brainfuck = "brainfuck.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
